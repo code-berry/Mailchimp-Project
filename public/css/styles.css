@@ -43,7 +43,6 @@ input {
 h1 {
 	font-family: Khula !important;
 	font-size: 60px !important;
-	text-align: center !important;
 }
 
 h4 {
@@ -60,7 +59,21 @@ input,label {
 	font-family: Roboto Mono !important;
 }
 
-button {
-	font-family: Khula !important;
-	font-size: 30px !important;
+#success-bg {
+	height: 100vh;
+	background-color: #1ed61e;
+}
+
+#success-bg>div {
+	height: 60%;
+	width: 80%;
+	background-color: #fafafa;
+	border-radius: 5px;
+}
+
+h6 {
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	font-family: Roboto Mono !important;
 }
