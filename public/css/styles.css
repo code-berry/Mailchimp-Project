@@ -39,3 +39,28 @@ input {
       box-shadow 0.15s
         ease-in-out;
 }
+
+h1 {
+	font-family: Khula !important;
+	font-size: 60px !important;
+	text-align: center !important;
+}
+
+h4 {
+	font-family: Roboto Mono !important;
+	margin-bottom: 25px !important;
+}
+
+p {
+	margin-top: 20px !important;
+	font-family: Roboto Mono !important;
+}
+
+input,label {
+	font-family: Roboto Mono !important;
+}
+
+button {
+	font-family: Khula !important;
+	font-size: 30px !important;
+}

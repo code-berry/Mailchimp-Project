@@ -40,9 +40,13 @@ app.post('/', function(req,res){
 
 	request(options, function(error, response, body) {
 		if (error) {
-			console.log("Error");
+			app.post('/', function(req,res) {
+				res.sendFile(__dirname + "/failure.html");
+			});
 		} else {
-			console.log(response.statusCode);
+			app.post('/', function(req,res) {
+				res.sendFile(__dirname + "/success.html");
+			});
 		}
 	});
 });
