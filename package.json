@@ -1,0 +1,17 @@
+{
+  "name": "newsletter",
+  "version": "1.0.0",
+  "description": "My first newsletter website using Heroku & Mailchimp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Codeberry",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
